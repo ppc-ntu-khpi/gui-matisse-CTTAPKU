@@ -136,10 +136,7 @@ public class Matisse extends javax.swing.JFrame {
             String accType = current.getAccount(i)instanceof CheckingAccount?"Checking":"Savings";  
                 custInfo += "\nAcc Type: "+accType+
                 "\nBalance: "+current.getAccount(i).getBalance() + "\n";
-            }
-//        "\nAcc Type: "+accType+
-//                "\nBalance: "+current.getAccount(0).getBalance();
-        
+            }        
         jTextArea1.setText(custInfo);   
 
     }//GEN-LAST:event_jButton1ActionPerformed
